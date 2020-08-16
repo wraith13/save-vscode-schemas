@@ -3,6 +3,7 @@
     "displayName": "save-vscode-schemas",
     "description": "Save VS Code's schemas",
     "version": "0.0.1",
+    "license": "SEE LICENSE IN LICENSE_1_0.txt",
     "engines": {
         "vscode": "^1.48.0"
     },
