@@ -10,14 +10,14 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:save-vscode-schemas.helloWorld"
+        "onCommand:save-vscode-schemas"
     ],
     "main": "./out/extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "save-vscode-schemas.helloWorld",
-                "title": "Hello World"
+                "command": "save-vscode-schemas",
+                "title": "Save VS Code's Schemas"
             }
         ]
     },
