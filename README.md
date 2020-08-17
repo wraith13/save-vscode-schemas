@@ -6,7 +6,7 @@ See [vscode-schemas](https://github.com/wraith13/vscode-schemas) or use [System 
 
 ## How to use.
 
-1. Edit `./src/config.json`.
 2. `Run Extension`.
 3. Open workspace.
+1. Edit `./source/config.json`.
 4. Execute `Save VS Code's Schemas` command from Command Palette.
