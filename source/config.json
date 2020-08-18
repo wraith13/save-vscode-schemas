@@ -11,6 +11,8 @@
         "vscode://schemas/extensions",
         "vscode://schemas/global-snippets",
         "vscode://schemas/icon-theme",
+        "vscode://schemas/ignoredExtensions",
+        "vscode://schemas/ignoredSettings",
         "vscode://schemas/keybindings",
         "vscode://schemas/language-configuration",
         "vscode://schemas/launch",
