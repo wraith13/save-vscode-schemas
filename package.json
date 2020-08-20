@@ -2,10 +2,19 @@
     "name": "save-vscode-schemas",
     "displayName": "save-vscode-schemas",
     "description": "Save VS Code's schemas",
-    "version": "0.0.1",
+    "version": "1.0.0",
+    "publisher": "wraith13",
     "license": "SEE LICENSE IN LICENSE_1_0.txt",
     "engines": {
         "vscode": "^1.48.0"
+    },
+    "bugs": {
+        "url": "https://github.com/wraith13/save-vscode-schemas/issues"
+    },
+    "homepage": "https://github.com/wraith13/save-vscode-schemas",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wraith13/save-vscode-schemas.git"
     },
     "categories": [
         "Other"
