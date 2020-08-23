@@ -1,6 +1,8 @@
 import * as vscode from 'vscode';
 import { posix } from 'path';
 import config from './config.json';
+export const locale = <string>JSON.parse(<string>process.env.VSCODE_NLS_CONFIG).locale ?? "en";
+export const version = `v${vscode.version}`;
 export const activate = (context: vscode.ExtensionContext) => context.subscriptions.push
 (
     vscode.commands.registerCommand
@@ -18,7 +20,7 @@ export const activate = (context: vscode.ExtensionContext) => context.subscripti
                         async uri =>
                         {
                             
-                            const path = `${config.out.rootDir}${uri.replace(/^vscode:\/(.*)/,"$1.json")}`;
+                            const path = `${config.out.rootDir}/${locale}/${version}${uri.replace(/^vscode:\/(.*)/,"$1.json")}`;
                             await vscode.workspace.fs.createDirectory
                             (
                                 baseUri.with({ path: posix.join(baseUri.path, path.replace(/\/[^/]+$/, "")) })
